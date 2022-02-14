@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            height: 100vh;
+        }
+
+        body>div {
+            position: relative;
+        }
+
+        .text {
+            position: absolute;
+            background-color: rgb(241, 238, 234);
+            color: black;
+            bottom: 25px;
+            width: 100%;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .img {
+            float: left;
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img id="img" src="https://content.thriveglobal.com/wp-content/uploads/2020/06/summer.jpg" alt="vasara" class="img">
+        <div id="text" class="text">VASARA</div>
+    </div>
+    <button id="btn">
+        Keisti
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="main.js"></script>
+
+    <body>
+
+    </body>
+
+</html>
